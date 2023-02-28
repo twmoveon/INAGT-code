@@ -3,6 +3,11 @@
 ## Overview
 This project examines sensor fusion techniques for modeling opportunities for proactive speech-based in-car interfaces. We leverage the Is Now a Good Time (INAGT) dataset, which consists of automotive, physiological, and visual data collected from drivers who self-annotated responses to the question “Is now a good time?,” indicating the opportunity to receive non-driving information during a 50-minute drive. We augment this original driver-annotated data with third-party annotations of perceived safety, in order to explore potential driver overconfidence. We show that fusing automotive, physiological, and visual data allows us to predict driver labels of availability, achieving an 0.874 F1-score by extracting statistically relevant features and training with our proposed deep neural network, PazNet. Using the same data and network, we achieve an 0.891 F1-score for predicting third-party labeled safe moments. We train these models to avoid false positives—determinations that it is a good time to interrupt when it is not—since false positives may cause driver distraction or service deactivation by the driver. Our analyses show that conservative models still leave many moments for interaction and show that most inopportune moments are short. This work lays a foundation for using sensor fusion models to predict when proactive speech systems should engage with drivers.
 
+## Publication
+Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT 2021) & The ACM international joint conference on Pervasive and Ubiquitous Computing (UbiComp 2021)
+
+[Learning when agents can talk to drivers using the inagt dataset and multisensor fusion](https://www.researchgate.net/profile/Nikolas-Martelaro/publication/354602472_Learning_When_Agents_Can_Talk_to_Drivers_Using_the_INAGT_Dataset_and_Multisensor_Fusion/links/6178b51eeef53e51e1f0cf5b/Learning-When-Agents-Can-Talk-to-Drivers-Using-the-INAGT-Dataset-and-Multisensor-Fusion.pdf)
+
 ## Dataset (https://github.com/FAR-Lab/INAGT-data) 
 - 1915 samples across 46 drivers during a 28.5 km route
 - Yes / No annotations from drivers if it is a good or bad time to interact
