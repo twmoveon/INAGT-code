@@ -15,7 +15,7 @@ Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technolog
 - Road video, driver face video, driver side video, and driver over shoulder video
 - Automotive data (CAN) from 2015 Toyota Prius
 - Physiological data from driver
-- Pre-comuted road object detection (via I3D Inception V1)
+- Pre-comuted road scene understanding (via I3D Inception V1)
 - Pre-computed Font body pose (via OpenPose)
 - Pre-computed facial landmarks (via OpenPose)
 - Pre-computed side body pose (via OpenPose)
